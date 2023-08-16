@@ -1,0 +1,90 @@
+#,Feature,Short description,Data type
+1,height,Participant height,Float
+2,weight,Participant weight,Float
+3,steps,Daily steps,Integer
+4,calories,Daily calories,Float
+5,lightsleep,Light sleep time,Integer
+6,deepsleep,Deep sleep time,Integer
+7,remsleep,REM sleep time,Integer
+8,awakesleep,Awake time during last sleep session,Integer
+9,incomingcalls,Number of incoming calls,Integer
+10,rejectedcalls,Number of rejected calls,Integer
+11,blockedcalls,Number of blocked calls,Integer
+12,missedcalls,Number of missed calls,Integer
+13,outgoingcalls,Number of outgoing calls,Integer
+14,incomingcallsaverageduration,Average duration of incoming calls,Float
+15,outgoingcallsaverageduration,Average duration of outgoing calls,Float
+16,differentlocations,Number of locations visited (50 meters apart),Integer
+17,differentwifi,Daily number of WiFi networks connected,Integer
+18,whatsappinvoice,Number of WhatsApp incoming voice call,Integer
+19,whatsappinvideo,Number of WhatsApp incoming video call,Integer
+20,whatsappoutvoice,Number of WhatsApp outgoing voice call,Integer
+21,whatsappoutvideo,Number of WhatsApp outgoing video call,Integer
+22,whatsappnotification,Number of WhatsApp notifications,Integer
+23,mean_nni,The mean of RR-intervals,Float
+24,sdnn,The standard deviation of the time interval between successive normal heart beats (i.e. the RR-intervals),Float
+25,sdsd,The standard deviation of differences between adjacent RR-intervals,Float
+26,nni_50,Number of interval differences of successive RR-intervals greater than 50 ms.,Float
+27,pnni_50,The proportion derived by dividing nni_50 (The number of interval differences of successive RR-intervals greater than 50 ms) by the total number of RR-intervals.,Integer
+28,nni_20,Number of interval differences of successive RR-intervals greater than 20 ms.,Float
+29,pnni_20,The proportion derived by dividing nni_20 (The number of interval differences of successive RR-intervals greater than 20 ms) by the total number of RR-intervals.,Integer
+30,rmssd,The square root of the mean of the sum of the squares of differences between adjacent NN-intervals. Reflects high frequency (fast or parasympathetic) influences on hrV,Float
+31,median_nni,Median Absolute values of the successive differences between the RR-intervals.,Float
+32,range_nni,Difference between the maximum and minimum nn_interval.,Integer
+33,cvsd,Coefficient of variation of successive differences equal to the rmssd divided by mean_nni.,Float
+34,cvnni,Coefficient of variation equal to the ratio of sdnn divided by mean_nni,Float
+35,mean_hr,Average of Heart Rate,Float
+36,max_hr,Maximum of Heart Rate,Integer
+37,min_hr,Minimum of Heart Rate,Integer
+38,std_hr,Standard Deviation of Heart Rate,Float
+39,specificage,Age,Integer
+40,group,Study Group,"Categorical (Initial Set, UFPI, UFC)"
+41,gender,Participant gender,Categorical (1 for male and 0 for female)
+42,income,Participant income,Categorical (1 for 0 to 1 considering minimum wage; 2 for 2 to 4; 3 for 5 to 7; 4 for 8 to 10; and 5 for more than 10)
+43,children,Number of children,Categorical (1 for none; 2 for 1 or 2; 3 for 3 or 4; 4 for more than 4)
+44,edulevel,Participant educational level,Categorical (1 for primary level; 2 for secondary level; 3 for university level; and 4 for postgraduate level)
+45,familyarr,Number of people living with the participant,Categorical (1 for lives alone; 2 for lives with more 1 or 2; 3 for lives with more 3 or 4; 4 for lives with 5 or more)
+46,residence,Number of WhatsApp outgoing voice call,Categorical (1 for urban area and 0 for rural area)
+47,social,Daily time spent on apps from category: social,Integer
+48,lifestyle,Daily time spent on apps from category: lifestyle,Integer
+49,communication,Daily time spent on apps from category: communication,Integer
+50,entertainment,Daily time spent on apps from category: entertainment,Integer
+51,music,Daily time spent on apps from category: music,Integer
+52,photography,Daily time spent on apps from category: photography,Integer
+53,finance,Daily time spent on apps from category: finance,Integer
+54,video,Daily time spent on apps from category: video,Integer
+55,health,Daily time spent on apps from category: health,Integer
+56,productivity,Daily time spent on apps from category: productivity,Integer
+57,business,Daily time spent on apps from category: business,Integer
+58,maps,Daily time spent on apps from category: maps,Integer
+59,shopping,Daily time spent on apps from category: shopping,Integer
+60,travel,Daily time spent on apps from category: travel,Integer
+61,food,Daily time spent on apps from category: food,Integer
+62,vehicles,Daily time spent on apps from category: vehicles,Integer
+63,sports,Daily time spent on apps from category: sports,Integer
+64,news,Daily time spent on apps from category: news,Integer
+65,games,Daily time spent on apps from category: games,Integer
+66,art,Daily time spent on apps from category: art,Integer
+67,education,Daily time spent on apps from category: education,Integer
+68,events,Daily time spent on apps from category: events,Integer
+69,educational,Daily time spent on apps from category: educational,Integer
+70,weather,Daily time spent on apps from category: weather,Integer
+71,books,Daily time spent on apps from category: books,Integer
+72,beauty,Daily time spent on apps from category: beauty,Integer
+73,house,Daily time spent on apps from category: house,Integer
+74,dating,Daily time spent on apps from category: dating,Integer
+75,walking,Daily time spent on apps from category: walking,Integer
+76,other,Daily time spent on apps from category: other,Integer
+77,invehicle,Daily time performing the activity: invehicle,Integer
+78,running,Daily time performing the activity: running,Integer
+79,biking,Daily time performing the activity: biking,Integer
+80,running(treadmill),Daily time performing the activity: running(treadmill),Integer
+81,strengthtraining,Daily time performing the activity: strengthtraining,Integer
+82,profession_fulltimeworker,True for full time worker (participant),Integer (0 for false and 1 for true)
+83,profession_parttimeworker,True for part time worker (participant),Integer (0 for false and 1 for true)
+84,profession_selfemployed,True for self employed worker (participant),Integer (0 for false and 1 for true)
+85,profession_student,True for students (participant),Integer (0 for false and 1 for true)
+86,maritalstatus_married,True for participants married,Integer (0 for false and 1 for true)
+87,maritalstatus_single,True for participants single,Integer (0 for false and 1 for true)
+88,phy_ref_score,Reference score for physical domain,Float
+89,psy_ref_score,Reference score for psychological domain,Float
